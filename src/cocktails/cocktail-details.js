@@ -15,7 +15,6 @@ const CocktailDetails = (props) => {
                 }
             });
     }, [props.match.params.id])
-    console.log(props);
 
     return (<div className="cocktail-details-wrapper">
         <h2>Details</h2>
